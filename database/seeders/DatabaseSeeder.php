@@ -156,6 +156,7 @@ class DatabaseSeeder extends Seeder
         $product->price = 16.00;
         $product->leiding = true;
         $product->image = 'img/staf.jpg';
+
         $product->save();
 
         $type = new Type();

@@ -102,6 +102,39 @@ span.collapsing{
 	color: white !important;
 }
 
+h5{
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.product-bodyy {
+	display: flex;
+	flex-direction: row;
+}
+
+.product-textt {
+	margin-left: 20px;
+}
+
+.product-column button {
+	width: 200px;
+	margin: 5px;
+}
+
+.korting{
+	color: red;
+	font-size: 20px;
+}
+
+.korting span{
+	font-weight: bold;
+}
+
 @media (max-width: 576px) {
 	h1{
 		font-size: 8vw;
