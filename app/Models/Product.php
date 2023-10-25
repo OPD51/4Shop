@@ -16,4 +16,7 @@ class Product extends Model
         $final_price=$value-$discount;  //Haalkortingafvanprijs
         return number_format($final_price,2);    //Zorgaltijdvoor2decimalen
     }
+    public function category(){
+        return $this->belongsTo(Category::class);
+    }
 }
